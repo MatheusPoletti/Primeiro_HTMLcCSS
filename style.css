@@ -1,0 +1,57 @@
+#balls {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0; /* Por padrão os navegadores colocam a margem em 8, para deixar um espaço minimo, mas nos nao queremos, deixamos 0 entao*/
+}
+
+#hero {
+    width: 592px; /* Largura */
+    margin: 0 auto 72px;   /* 1° Define o valor do topo, 2° valor das laterais, 3° valor para baixo - Imaginar o funcionamento do relogio
+                                auto = definir automaticamente as margens do tamanho igual*/
+
+}
+
+#hero img {
+    margin-bottom: 72px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: #000000;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
+}
+h1 span  {
+    font-weight: bold; /* Peso, no caso o negrito aqui*/
+
+} 
+span, a {
+    color: #FF9900;
+}
+
+p, footer { 
+    color: #7D7987;
+    font-size: 14px; /* Tamanho da fonte */
+    line-height: 28px;/* Altura da linha */
+}
+
+#footer a + a { /* Nesse caso do A + A funciona da seguinte maneira, de traz pra frente lendo, ele vai pegar o segundo A e ler assim
+                pegue um a, que tenha um a anterior a ele e aplique a margen de 28px a esquerda*/
+    margin-left: 28px;
+}
+
+#line {
+    width: 568px;
+    height: 0;
+    border: 1px #eceff2 solid;
+    margin: 0 auto 8px
+}
+
